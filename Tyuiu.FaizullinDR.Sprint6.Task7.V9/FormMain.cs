@@ -65,7 +65,7 @@ namespace Tyuiu.FaizullinDR.Sprint6.Task7.V9
             {
                 for (int c = 0; c < dataGridViewOut_FDR.ColumnCount; c++)
                 {
-                    if ((c == 3) && (matrix[r, c] >= 1) && (matrix[r, c] <= 5))
+                    if ((c == 2) && (matrix[r, c] >= 1) && (matrix[r, c] <= 5))
                         dataGridViewOut_FDR.Rows[r].Cells[c].Value = 7;
                     else
                         dataGridViewOut_FDR.Rows[r].Cells[c].Value = matrix[r, c];
